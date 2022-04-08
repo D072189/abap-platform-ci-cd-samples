@@ -1,10 +1,6 @@
 general:
-  cfApiEndpoint: 'https://api.cf.sap.hana.ondemand.com'
-  cfOrg: 'myOrg'
-  cfSpace: 'mySpace'
-  cfCredentialsId: 'cfAuthentification'
-  cfServiceInstance: 'abap_system'
-  cfServiceKeyName: 'JENKINS_SAP_COM_0510'
+  abapCredentialsId: 'X08_piper'
+  host: 'https://89df06df-af3b-4421-bcca-ea1f9284e51b.abap.stagingaws.hanavlab.ondemand.com'
 stages:
   ATC:
     atcConfig: 'atcConfig.yml'
