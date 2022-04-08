@@ -1,3 +1,4 @@
-atcobjects:
-  package:
-    - name: "ZLOCAL"
+objectset:
+  type: multiPropertySet
+  multipropertyset:
+    package: ZD072189_1
