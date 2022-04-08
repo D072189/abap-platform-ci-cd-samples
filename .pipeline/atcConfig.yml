@@ -1,4 +1,5 @@
 objectset:
   type: multiPropertySet
   multipropertyset:
-    package: Z_D072189_1
+    packages: 
+      -name: Z_D072189_1
