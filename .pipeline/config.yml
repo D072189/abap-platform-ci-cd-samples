@@ -3,16 +3,9 @@ general:
   cfOrg: 'myOrg'
   cfSpace: 'mySpace'
   cfCredentialsId: 'cfAuthentification'
-  cfServiceInstance: 'atc_system'
+  cfServiceInstance: 'abap_system'
+  cfServiceKeyName: 'JENKINS_SAP_COM_0510'
 stages:
-  Clone Repositories:
-    repositories: 'repositories.yml'
-    strategy: 'Pull'
   ATC:
-    # In order to be executed, the ATC stage needs at least one configuration entry
-    # If the ATC stage should not be executed, delete the whole section
-    execute: stage
-  AUnit:
-    # In order to be executed, the AUnit stage needs at least one configuration entry
-    # If the AUnit stage should not be executed, delete the whole section
-    execute: stage
+    atcConfig: 'atcConfig.yml'
+    atcSystemConfigFilePath: 'atcSystemConfig.json'
