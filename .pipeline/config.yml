@@ -3,5 +3,5 @@ general:
   host: 'https://89df06df-af3b-4421-bcca-ea1f9284e51b.abap.stagingaws.hanavlab.ondemand.com'
 stages:
   ATC:
-    atcConfig: 'atcConfig.yml'
-    atcSystemConfigFilePath: 'atcSystemConfig.json'
+    atcConfig: '/.pipeline/atcConfig.yml'
+    atcSystemConfigFilePath: '/.pipeline/atcSystemConfig.json'
