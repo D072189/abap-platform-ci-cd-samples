@@ -1,21 +1,18 @@
 {
 	"conf_name": "Z_CONFIG_VIA_PIPELINE_DEMO",
-	"checkvariant": "ABAP_CLOUD_DEVELOPMENT_DEFAULT",
+	"checkvariant": "SLIN_SEC",
 	"block_findings": "0",
 	"inform_findings": "1",
 	"is_default": false,
 	"is_proxy_variant": false,
+	"transport_check_policy": "G",
+	"check_tasks": "X",
 	"_priorities": [
 		{
-			"test": "CL_CI_ARS_COMPATIBILITY_CHECK",
+			"test": "CL_CI_TEST_EXTENDED_SEC",
 			"message_id": "010",
 			"default_priority": 1,
 			"priority": 2
 		},
-		{
-			"test": "CL_CI_ARS_COMPATIBILITY_CHECK",
-			"message_id": "011",
-			"priority": 3
-		}
 	]
 }
