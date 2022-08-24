@@ -5,7 +5,8 @@
 	"inform_findings": "1",
 	"is_default": false,
 	"is_proxy_variant": false,
-	"transport_check_policy": "G",
+	"transport_check_policy": "C",
+	"check_tocs": true,
 	"check_tasks": true,
 	"_priorities": [
 		{
