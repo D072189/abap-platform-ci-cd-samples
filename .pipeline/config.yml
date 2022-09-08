@@ -1,6 +1,6 @@
 general:
   abapCredentialsId: 'X02_PIPER'
-  host: ' https://e53882ec-492f-4941-8dcc-b52e7d09fcc9.abap.stagingaws.hanavlab.ondemand.com'
+  host: 'https://e53882ec-492f-4941-8dcc-b52e7d09fcc9.abap.stagingaws.hanavlab.ondemand.com'
 stages:
   ATC:
     atcConfig: '.pipeline/atcConfig.yml'
