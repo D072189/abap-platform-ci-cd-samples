@@ -1,5 +1,4 @@
+configuration: "Z_CONFIG_VIA_PIPELINE_DEMO"
 objectset:
-  type: multiPropertySet
-  multipropertyset:
-    packages: 
-      - name: Z_D034650
+  packages: 
+    - name: Z_D034650
