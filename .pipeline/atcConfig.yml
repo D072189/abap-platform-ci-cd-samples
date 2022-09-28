@@ -1,4 +1,5 @@
 configuration: "Z_CONFIG_VIA_PIPELINE_DEMO"
+checkvariant: "SLIN_SEC"
 objectset:
   packages: 
     - name: Z_D034650
