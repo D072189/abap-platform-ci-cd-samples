@@ -9,10 +9,5 @@
 	"check_tocs": true,
 	"check_tasks": true,
 	"_priorities": [
-		{
-			"test": "CL_CI_TEST_EXTENDED_SEC",
-			"message_id": "0821",
-			"priority": 2
-		}
 	]
 }
