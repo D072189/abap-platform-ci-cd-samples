@@ -1,5 +1,5 @@
 configuration: "Z_CONFIG_VIA_PIPELINE_DEMO"
-checkvariant: "SLIN_SEC"
+checkvariant: "ABAP_CLOUD_DEVELOPMENT_DEFAULT"
 objectset:
   packages: 
     - name: Z_D034650
