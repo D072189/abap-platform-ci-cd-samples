@@ -1,13 +1,18 @@
 {
-	"conf_name": "Z_CONFIG_VIA_PIPELINE_DEMO",
-	"checkvariant": "SLIN_SEC",
-	"block_findings": "0",
-	"inform_findings": "1",
-	"is_default": false,
-	"is_proxy_variant": false,
-	"transport_check_policy": "C",
-	"check_tocs": true,
-	"check_tasks": true,
-	"_priorities": [
-	]
+  "conf_name": "Z_CONFIG_VIA_PIPELINE_DEMO",
+  "checkvariant": "ABAP_CLOUD_DEVELOPMENT_DEFAULT",
+  "pseudo_comment_policy": "SP",
+  "block_findings": "2",
+  "inform_findings": "2",
+  "transport_check_policy": "C",
+  "check_tasks": true,
+  "check_requests": true,
+  "check_tocs": false,
+  "_priorities": [
+    {
+      "test": "CL_CI_TEST_EXTENDED_CHECK",
+      "message_id": "1700",
+      "priority": 2
+    }
+  ]
 }
