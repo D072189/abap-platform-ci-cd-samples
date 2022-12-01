@@ -5,3 +5,4 @@ stages:
   ATC:
     atcConfig: '.pipeline/atcConfig.yml'
     atcSystemConfigFilePath: '.pipeline/atcSystemConfig.json'
+    failOnSeverity: 'error'
