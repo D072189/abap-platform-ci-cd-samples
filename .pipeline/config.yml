@@ -1,5 +1,5 @@
 general:
-  abapCredentialsId: 'X02_PIPER'
+  abapCredentialsId: 'ATC_PIPER'
   host: 'https://989e54e4-e274-4f30-b03a-383225716d0b.abap-web.stagingaws.hanavlab.ondemand.com'
 stages:
   ATC:
